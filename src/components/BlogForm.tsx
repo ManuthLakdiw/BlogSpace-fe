@@ -33,7 +33,7 @@ const BlogForm = ({showForm, setShowForm}: BlogFormProps) => {
     const [tagInput, setTagInput] = useState("");
     const [loading, setLoading] = useState(false);
 
-
+    console.log(loading);
     const {title, author, content, tags} = formData;
 
     // Text inputs handle කරනවා

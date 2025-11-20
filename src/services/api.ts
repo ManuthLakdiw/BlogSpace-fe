@@ -2,7 +2,7 @@ import axios, {type AxiosInstance} from "axios";
 
 
 const api:AxiosInstance = axios.create({
-    baseURL: 'http://localhost:5001/api/v1',
+    baseURL: 'https://blog-space-be.vercel.app/api/v1',
 })
 
 const PUBLIC_ENDPOINTS = ["auth/login", "auth/register"];

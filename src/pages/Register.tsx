@@ -150,7 +150,7 @@ const Register = () => {
                         className="absolute top-5 left-5 cursor-pointer text-zinc-950 hover:text-zinc-500 transition transition-all duration-300"
                     />
                     <form
-                        className="w-1/3 flex flex-col px-8 py-5 gap-6 bg-white rounded-lg shadow-md border-1 border-zinc-200"
+                        className="w-1/3    flex flex-col px-8 py-5 gap-6 bg-white rounded-lg shadow-md border-1 border-zinc-200"
                         onSubmit={handleSubmit}
                     >
                         <h1 className="self-center text-2xl font-bold">Create Account</h1>
